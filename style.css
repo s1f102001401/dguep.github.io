@@ -13,8 +13,6 @@ body{
 	font-family:Arial, sans-serif;
 	-webkit-font-smoothing:antialiased;
 	overflow:scroll;
-	background: #6CD8FF url() 0 100% repeat-x;
-	transition: background .3s;
 }
 
 header{
@@ -105,43 +103,3 @@ section h2{
 	text-align: center;
 }
 
-#bg1{
-	height: 100px;
-	background: url() 0 100% repeat-x;
-	transition: background .3s;
-}
-
-#bg2{
-	height: 100px;
-	background: url() 0 100% repeat-x;
-	transition: background .3s;
-}
-
-#slide{
-	position: relative;
-	overflow: hidden;
-	display: block;
-	width: 700px;
-	height: 250px;
-	margin: 0 auto;
-}
-
-#sections{
-	position: absolute;
-	width: 2800px;
-	height: 100%;
-}
-
-#section{
-	float: left;
-	width: 700px;
-}
-
-li a{
-	text-indent: -9999px;
-	display: block;
-	width: 32px;
-	height: 32px;
-	border-radius: 8px;
-	background: #664949;
-}
